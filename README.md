@@ -12,4 +12,4 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `docs/` directory.
+Run `ng build --output-path docs --base-href /serverless-bookstore-fe/` to build the project which is ready for Github Page Deployment. The build artifacts will be stored in the `docs/` directory.
