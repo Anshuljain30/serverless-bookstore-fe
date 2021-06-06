@@ -1,21 +1,25 @@
-<div
-  *ngFor="let x of i"
-  class="card"
-  style="width: 18rem; display: inline-block; padding: 1rem;"
->
-  <img
-    class="card-img-top"
-    src="https://images.unsplash.com/photo-1523251343397-9225e4cb6319?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80"
-    alt="Card image cap"
-  />
-  <div class="card-body">
-    <h2 class="card-title">
-      Card Title
-    </h2>
-    <p class="card-text">
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </p>
-    <a href="#" class="btn btn-primary btn-sm float-right">Edit</a>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2" *ngFor="let x of i">
+      <div class="card row" style="padding: 15px;">
+        <img
+          class="card-img-top"
+          src="https://images.unsplash.com/photo-1523251343397-9225e4cb6319?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h2 class="card-title">
+            Card Title
+          </h2>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <div class="text-right">
+            <a href="#" class="btn btn-dark btn-sm">Edit</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
