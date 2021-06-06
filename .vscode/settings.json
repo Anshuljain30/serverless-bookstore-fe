@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "node_modules/": true,
+    ".*": true,
+    "ts*": true,
+    "k*": true,
+    "p*": true,
+    "R*": true
+  }
+}
